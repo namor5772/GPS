@@ -1,5 +1,5 @@
 // IN GITHUB
-C:\Users\roman\Documents\GitHub\GPS\Code\MyST7920
+// C:\Users\roman\Documents\GitHub\GPS\Code\MyST7920
 
 #include "ST7920.h" // minimal bit-bashed SPI drivers for ST7920 based LCD
 #include "bitmaps.h" // font and buffer bitmaps used by LCD
@@ -439,7 +439,7 @@ void loop() {
         // increment the global loop variable (used to reduce display load)
         // this is done ONLY for iterations which get valid gps data! 
         LoopNum++; 
-        Serial.print(LoopNum); Serial.print(" valid gps data loop iteration\n");
+        Serial.print(LoopNum); Serial.print(" Valid gps data loop iteration\n");
         
         // resetflags after gps data has been collected
         NEMAparse = false;

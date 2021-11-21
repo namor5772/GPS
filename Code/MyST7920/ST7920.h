@@ -1,5 +1,5 @@
 // IN GITHUB
-C:\Users\roman\Documents\GitHub\GPS\Code\MyST7920
+// C:\Users\roman\Documents\GitHub\GPS\Code\MyST7920
 
 #ifndef LCD_ST7920_h
 #define LCD_ST7920_h
