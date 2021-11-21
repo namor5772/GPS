@@ -1,4 +1,6 @@
 // IN GITHUB
+C:\Users\roman\Documents\GitHub\GPS\Code\MyST7920
+
 #include "ST7920.h" // minimal bit-bashed SPI drivers for ST7920 based LCD
 #include "bitmaps.h" // font and buffer bitmaps used by LCD
 #include <EEPROM.h> // saving data between reboots

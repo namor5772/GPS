@@ -1,4 +1,6 @@
 // IN GITHUB
+C:\Users\roman\Documents\GitHub\GPS\Code\MyST7920
+
 #include "ST7920.h"
 
 

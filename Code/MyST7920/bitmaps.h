@@ -1,4 +1,5 @@
 IN GITHUB
+C:\Users\roman\Documents\GitHub\GPS\Code\MyST7920
 
 // Various bitmaps used by the LCD
 
