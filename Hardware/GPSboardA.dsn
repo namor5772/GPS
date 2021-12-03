@@ -59,12 +59,12 @@ download the executable.-->
 			<CHARSET>0</CHARSET>
 			<FACENAME>Arial</FACENAME>
 		</FONT>
-		<STYLE id='3'>
+		<STYLE id='4'>
 			<STYLE>0</STYLE>
 			<COLOR>000000</COLOR>
 			<THICKNESS>1</THICKNESS>
 		</STYLE>
-		<STYLE id='4'>
+		<STYLE id='5'>
 			<STYLE>0</STYLE>
 			<COLOR>000000</COLOR>
 			<THICKNESS>2</THICKNESS>
@@ -13128,7 +13128,7 @@ M _# :RN@;WP1G2A%AV%&gt;&#039;_XO_5_ZO_1_Z?_2_Q_I_P$W?^7\&quot;%_C3P    !)
 			<REF_POINT power='0' part='0' pos='44.00000,33.00000'/>
 			<REF_POINT power='1' part='0' pos='44.00000,33.00000'/>
 			<TinyCAD>
-				<RECTANGLE a='40.00000,26.00000' b='44.00000,33.00000' style='3' fill='0'/>
+				<RECTANGLE a='40.00000,26.00000' b='44.00000,33.00000' style='4' fill='0'/>
 				<PIN pos='36.00000,28.00000' which='0' elec='0' direction='3' part='0' number='1' show='3' length='30' number_pos='0' centre_name='0'></PIN>
 				<PIN pos='36.00000,31.00000' which='0' elec='0' direction='3' part='0' number='2' show='3' length='30' number_pos='0' centre_name='0'></PIN>
 			</TinyCAD>
@@ -13164,7 +13164,7 @@ M _# :RN@;WP1G2A%AV%&gt;&#039;_XO_5_ZO_1_Z?_2_Q_I_P$W?^7\&quot;%_C3P    !)
 			<TinyCAD>
 				<PIN pos='21.00000,21.00000' which='0' elec='4' direction='1' part='0' number='1' show='0' length='15' number_pos='0' centre_name='0'></PIN>
 				<PIN pos='21.00000,31.00000' which='0' elec='4' direction='0' part='0' number='2' show='0' length='15' number_pos='0' centre_name='0'></PIN>
-				<RECTANGLE a='20.00000,24.00000' b='22.00000,28.00000' style='3' fill='0'/>
+				<RECTANGLE a='20.00000,24.00000' b='22.00000,28.00000' style='4' fill='0'/>
 			</TinyCAD>
 		</SYMBOLDEF>
 		<SYMBOLDEF id='3'>
@@ -13198,22 +13198,22 @@ M _# :RN@;WP1G2A%AV%&gt;&#039;_XO_5_ZO_1_Z?_2_Q_I_P$W?^7\&quot;%_C3P    !)
 			<TinyCAD>
 				<PIN pos='22.00000,28.00000' which='0' elec='0' direction='0' part='0' number='1' show='3' length='12' number_pos='0' centre_name='0'></PIN>
 				<PIN pos='22.00000,22.00000' which='0' elec='0' direction='1' part='0' number='2' show='1' length='10' number_pos='0' centre_name='0'></PIN>
-				<POLYGON pos='20.00000,25.00000' style='3' fill='0' polygon='0'>
+				<POLYGON pos='20.00000,25.00000' style='4' fill='0' polygon='0'>
 					<POINT pos='4.00000,0.63680' arc='0'/>
 					<POINT pos='0.00000,0.63680' arc='0'/>
 					<POINT pos='0.00000,0.00000' arc='0'/>
 					<POINT pos='4.00000,0.00000' arc='0'/>
 					<POINT pos='4.00000,0.63680' arc='0'/>
 				</POLYGON>
-				<POLYGON pos='23.20000,27.00000' style='3' fill='0' polygon='0'>
+				<POLYGON pos='23.20000,27.00000' style='4' fill='0' polygon='0'>
 					<POINT pos='1.50113,0.00000' arc='0'/>
 					<POINT pos='0.06013,0.00000' arc='0'/>
 				</POLYGON>
-				<POLYGON pos='24.00000,26.40000' style='3' fill='0' polygon='0'>
+				<POLYGON pos='24.00000,26.40000' style='4' fill='0' polygon='0'>
 					<POINT pos='0.00000,0.00747' arc='0'/>
 					<POINT pos='0.00000,1.24683' arc='0'/>
 				</POLYGON>
-				<POLYGON pos='20.00000,24.00000' style='3' fill='0' polygon='0'>
+				<POLYGON pos='20.00000,24.00000' style='4' fill='0' polygon='0'>
 					<POINT pos='0.00000,0.00000' arc='0'/>
 					<POINT pos='4.00000,0.00000' arc='0'/>
 				</POLYGON>
@@ -13249,14 +13249,14 @@ M _# :RN@;WP1G2A%AV%&gt;&#039;_XO_5_ZO_1_Z?_2_Q_I_P$W?^7\&quot;%_C3P    !)
 			<REF_POINT power='0' part='0' pos='37.00000,32.00000'/>
 			<REF_POINT power='1' part='0' pos='37.00000,32.00000'/>
 			<TinyCAD>
-				<POLYGON pos='24.00000,23.00000' style='3' fill='0' polygon='0'>
+				<POLYGON pos='24.00000,23.00000' style='4' fill='0' polygon='0'>
 					<POINT pos='0.00000,0.00000' arc='0'/>
 					<POINT pos='0.00000,6.00000' arc='0'/>
 					<POINT pos='6.00000,3.00000' arc='0'/>
 					<POINT pos='0.00000,0.00000' arc='0'/>
 				</POLYGON>
 				<PIN pos='37.00000,26.00000' which='0' elec='1' direction='2' part='0' number='2' show='3' length='20' number_pos='0' centre_name='0'></PIN>
-				<ELLIPSE a='29.80000,24.40000' b='32.80000,27.40000' style='3' fill='0'/>
+				<ELLIPSE a='29.80000,24.40000' b='32.80000,27.40000' style='4' fill='0'/>
 				<PIN pos='20.00000,26.00000' which='0' elec='0' direction='3' part='0' number='1' show='3' length='20' number_pos='0' centre_name='0'></PIN>
 				<PIN pos='37.00000,26.00000' which='0' elec='1' direction='2' part='1' number='4' show='3' length='20' number_pos='0' centre_name='0'></PIN>
 				<PIN pos='20.00000,26.00000' which='0' elec='0' direction='3' part='1' number='3' show='3' length='20' number_pos='0' centre_name='0'></PIN>
@@ -13270,12 +13270,12 @@ M _# :RN@;WP1G2A%AV%&gt;&#039;_XO_5_ZO_1_Z?_2_Q_I_P$W?^7\&quot;%_C3P    !)
 				<PIN pos='20.00000,26.00000' which='0' elec='0' direction='3' part='5' number='13' show='3' length='20' number_pos='0' centre_name='0'></PIN>
 				<PIN pos='27.00000,32.00000' which='0' elec='0' direction='0' part='0' number='7' show='3' length='20' number_pos='0' centre_name='0'></PIN>
 				<PIN pos='27.00000,20.00000' which='0' elec='0' direction='1' part='0' number='14' show='3' length='20' number_pos='0' centre_name='0'></PIN>
-				<POLYGON pos='24.60000,25.40000' style='3' fill='0' polygon='0'>
+				<POLYGON pos='24.60000,25.40000' style='4' fill='0' polygon='0'>
 					<POINT pos='2.00000,0.10000' arc='0'/>
 					<POINT pos='2.00000,1.10000' arc='0'/>
 					<POINT pos='0.00000,1.10000' arc='0'/>
 				</POLYGON>
-				<POLYGON pos='25.60000,25.40000' style='3' fill='0' polygon='0'>
+				<POLYGON pos='25.60000,25.40000' style='4' fill='0' polygon='0'>
 					<POINT pos='0.00000,1.10000' arc='0'/>
 					<POINT pos='0.00000,0.10000' arc='0'/>
 					<POINT pos='2.00000,0.10000' arc='0'/>
@@ -13312,7 +13312,7 @@ M _# :RN@;WP1G2A%AV%&gt;&#039;_XO_5_ZO_1_Z?_2_Q_I_P$W?^7\&quot;%_C3P    !)
 			<REF_POINT power='0' part='0' pos='92.32126,52.81546'/>
 			<REF_POINT power='1' part='0' pos='92.76078,53.06679'/>
 			<TinyCAD>
-				<RECTANGLE a='92.32126,29.81546' b='65.40000,52.81546' style='3' fill='0'/>
+				<RECTANGLE a='92.32126,29.81546' b='65.40000,52.81546' style='4' fill='0'/>
 				<PIN pos='61.26078,38.06679' which='0' elec='1' direction='3' part='0' number='3' show='3' length='20' number_pos='0' centre_name='0'>D+</PIN>
 				<PIN pos='61.23402,44.10442' which='0' elec='5' direction='3' part='0' number='2' show='3' length='20' number_pos='0' centre_name='0'>D-</PIN>
 				<PIN pos='61.15959,50.40778' which='0' elec='1' direction='3' part='0' number='1' show='3' length='20' number_pos='0' centre_name='0'>5V</PIN>
@@ -13351,31 +13351,31 @@ M _# :RN@;WP1G2A%AV%&gt;&#039;_XO_5_ZO_1_Z?_2_Q_I_P$W?^7\&quot;%_C3P    !)
 			<TinyCAD>
 				<PIN pos='30.00000,31.00000' which='0' elec='0' direction='2' part='0' number='3' show='3' length='15' number_pos='0' centre_name='0'></PIN>
 				<PIN pos='17.00000,37.00000' which='0' elec='0' direction='3' part='0' number='2' show='3' length='15' number_pos='0' centre_name='0'></PIN>
-				<ELLIPSE a='23.00000,35.25000' b='24.00000,36.25000' style='4' fill='0'/>
-				<ELLIPSE a='24.00000,31.85000' b='23.00000,32.85000' style='4' fill='0'/>
-				<POLYGON pos='22.00000,32.40000' style='4' fill='0' polygon='0'>
+				<ELLIPSE a='23.00000,35.25000' b='24.00000,36.25000' style='5' fill='0'/>
+				<ELLIPSE a='24.00000,31.85000' b='23.00000,32.85000' style='5' fill='0'/>
+				<POLYGON pos='22.00000,32.40000' style='5' fill='0' polygon='0'>
 					<POINT pos='0.05000,0.15000' arc='0'/>
 					<POINT pos='0.05000,3.15000' arc='0'/>
 				</POLYGON>
 				<PIN pos='30.00000,37.00000' which='0' elec='0' direction='2' part='0' number='4' show='3' length='15' number_pos='0' centre_name='0'></PIN>
 				<PIN pos='17.00000,31.00000' which='0' elec='0' direction='3' part='0' number='1' show='3' length='15' number_pos='0' centre_name='0'></PIN>
-				<POLYGON pos='20.00000,31.00000' style='3' fill='0' polygon='0'>
+				<POLYGON pos='20.00000,31.00000' style='4' fill='0' polygon='0'>
 					<POINT pos='0.00000,0.00000' arc='0'/>
 					<POINT pos='7.00000,0.00000' arc='0'/>
 				</POLYGON>
-				<POLYGON pos='20.00000,37.00000' style='3' fill='0' polygon='0'>
+				<POLYGON pos='20.00000,37.00000' style='4' fill='0' polygon='0'>
 					<POINT pos='0.00000,0.00000' arc='0'/>
 					<POINT pos='7.00000,0.00000' arc='0'/>
 				</POLYGON>
-				<POLYGON pos='23.40000,31.00000' style='3' fill='0' polygon='0'>
+				<POLYGON pos='23.40000,31.00000' style='4' fill='0' polygon='0'>
 					<POINT pos='0.05000,0.00000' arc='0'/>
 					<POINT pos='0.05000,0.75000' arc='0'/>
 				</POLYGON>
-				<POLYGON pos='23.40000,36.20000' style='3' fill='0' polygon='0'>
+				<POLYGON pos='23.40000,36.20000' style='4' fill='0' polygon='0'>
 					<POINT pos='0.10000,0.05000' arc='0'/>
 					<POINT pos='0.10000,0.80000' arc='0'/>
 				</POLYGON>
-				<RECTANGLE a='20.08000,30.20000' b='27.04000,37.88000' style='3' fill='0'/>
+				<RECTANGLE a='20.08000,30.20000' b='27.04000,37.88000' style='4' fill='0'/>
 			</TinyCAD>
 		</SYMBOLDEF>
 		<SYMBOLDEF id='7'>
@@ -13410,7 +13410,7 @@ M _# :RN@;WP1G2A%AV%&gt;&#039;_XO_5_ZO_1_Z?_2_Q_I_P$W?^7\&quot;%_C3P    !)
 				<PIN pos='30.00000,24.00000' which='0' elec='0' direction='3' part='0' number='1' show='3' length='30' number_pos='0' centre_name='0'></PIN>
 				<PIN pos='30.00000,27.00000' which='0' elec='0' direction='3' part='0' number='2' show='3' length='30' number_pos='0' centre_name='0'></PIN>
 				<PIN pos='30.00000,30.00000' which='0' elec='0' direction='3' part='0' number='3' show='3' length='30' number_pos='0' centre_name='0'></PIN>
-				<RECTANGLE a='34.00000,22.00000' b='38.00000,32.00000' style='3' fill='0'/>
+				<RECTANGLE a='34.00000,22.00000' b='38.00000,32.00000' style='4' fill='0'/>
 			</TinyCAD>
 		</SYMBOLDEF>
 		<SYMBOLDEF id='8'>
@@ -13442,7 +13442,7 @@ M _# :RN@;WP1G2A%AV%&gt;&#039;_XO_5_ZO_1_Z?_2_Q_I_P$W?^7\&quot;%_C3P    !)
 			</FIELD>
 			<REF_POINT power='0' part='0' pos='28.00000,24.00000'/>
 			<TinyCAD>
-				<RECTANGLE a='24.00000,20.00000' b='28.00000,24.00000' style='3' fill='0'/>
+				<RECTANGLE a='24.00000,20.00000' b='28.00000,24.00000' style='4' fill='0'/>
 				<PIN pos='20.00000,22.00000' which='0' elec='0' direction='3' part='0' number='1' show='3' length='30' number_pos='0' centre_name='0'></PIN>
 			</TinyCAD>
 		</SYMBOLDEF>
@@ -13473,10 +13473,10 @@ M _# :RN@;WP1G2A%AV%&gt;&#039;_XO_5_ZO_1_Z?_2_Q_I_P$W?^7\&quot;%_C3P    !)
 			<HINT pin='3' net='15'/>
 			<HINT pin='4' net='2'/>
 		</SYMBOL>
-		<TEXT pos='28.50000,126.50000' direction='3' font='4' color='000000'>Arduino Mega </TEXT>
-		<TEXT pos='36.50000,129.50000' direction='3' font='3' color='000000'>D2 - interrupt</TEXT>
-		<TEXT pos='36.50000,132.50000' direction='3' font='3' color='000000'>D3 - interrupt</TEXT>
-		<SYMBOL id='2' pos='104.00000,116.50000' part='0' rotate='2' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+		<TEXT pos='19.00000,126.50000' direction='3' font='4' color='000000'>Arduino Mega </TEXT>
+		<TEXT pos='27.00000,129.50000' direction='3' font='3' color='000000'>D2 - interrupt</TEXT>
+		<TEXT pos='27.00000,132.50000' direction='3' font='3' color='000000'>D3 - interrupt</TEXT>
+		<SYMBOL id='2' pos='94.50000,116.50000' part='0' rotate='2' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='0' description='Ref' value='R1' show='1' pos='-7.50000,-2.00000'/>
 			<FIELD type='0' description='Name' value='100' show='1' pos='-3.86977,-2.07003'/>
 			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
@@ -13485,7 +13485,7 @@ M _# :RN@;WP1G2A%AV%&gt;&#039;_XO_5_ZO_1_Z?_2_Q_I_P$W?^7\&quot;%_C3P    !)
 			<HINT pin='1' net='124'/>
 			<HINT pin='2' net='125'/>
 		</SYMBOL>
-		<SYMBOL id='2' pos='93.00000,113.50000' part='0' rotate='4' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+		<SYMBOL id='2' pos='83.50000,113.50000' part='0' rotate='4' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='0' description='Ref' value='R2' show='1' pos='1.00000,-4.60000'/>
 			<FIELD type='0' description='Name' value='10K' show='1' pos='4.50000,-4.50000'/>
 			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
@@ -13494,9 +13494,9 @@ M _# :RN@;WP1G2A%AV%&gt;&#039;_XO_5_ZO_1_Z?_2_Q_I_P$W?^7\&quot;%_C3P    !)
 			<HINT pin='1' net='3'/>
 			<HINT pin='2' net='124'/>
 		</SYMBOL>
-		<POWER pos='106.00000,124.00000' which='4' direction='1'>GND</POWER>
-		<POWER pos='83.50000,101.50000' which='0' direction='0'>5V</POWER>
-		<SYMBOL id='3' pos='95.00000,123.00000' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+		<POWER pos='96.50000,124.00000' which='4' direction='1'>GND</POWER>
+		<POWER pos='74.00000,101.50000' which='0' direction='0'>5V</POWER>
+		<SYMBOL id='3' pos='85.50000,123.00000' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='0' description='Ref' value='C1' show='1' pos='0.00000,-1.10000'/>
 			<FIELD type='0' description='Name' value='0.1 µF' show='1' pos='3.50000,-1.00000'/>
 			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
@@ -13505,8 +13505,8 @@ M _# :RN@;WP1G2A%AV%&gt;&#039;_XO_5_ZO_1_Z?_2_Q_I_P$W?^7\&quot;%_C3P    !)
 			<HINT pin='1' net='124'/>
 			<HINT pin='2' net='2'/>
 		</SYMBOL>
-		<WIRE a='92.00000,115.50000' b='92.00000,117.00000'/>
-		<SYMBOL id='2' pos='104.00000,149.00000' part='0' rotate='2' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+		<WIRE a='82.50000,115.50000' b='82.50000,117.00000'/>
+		<SYMBOL id='2' pos='94.50000,149.00000' part='0' rotate='2' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='0' description='Ref' value='R3' show='1' pos='-7.50000,-2.00000'/>
 			<FIELD type='0' description='Name' value='100' show='1' pos='-3.72972,-2.00000'/>
 			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
@@ -13515,7 +13515,7 @@ M _# :RN@;WP1G2A%AV%&gt;&#039;_XO_5_ZO_1_Z?_2_Q_I_P$W?^7\&quot;%_C3P    !)
 			<HINT pin='1' net='126'/>
 			<HINT pin='2' net='127'/>
 		</SYMBOL>
-		<SYMBOL id='2' pos='92.98010,146.44936' part='0' rotate='4' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+		<SYMBOL id='2' pos='83.48010,146.44936' part='0' rotate='4' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='0' description='Ref' value='R4' show='1' pos='1.00000,-4.60000'/>
 			<FIELD type='0' description='Name' value='10K' show='1' pos='4.50000,-4.50000'/>
 			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
@@ -13524,8 +13524,8 @@ M _# :RN@;WP1G2A%AV%&gt;&#039;_XO_5_ZO_1_Z?_2_Q_I_P$W?^7\&quot;%_C3P    !)
 			<HINT pin='1' net='3'/>
 			<HINT pin='2' net='126'/>
 		</SYMBOL>
-		<POWER pos='106.00000,156.50000' which='4' direction='1'>GND</POWER>
-		<SYMBOL id='3' pos='95.00000,155.50000' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+		<POWER pos='96.50000,156.50000' which='4' direction='1'>GND</POWER>
+		<SYMBOL id='3' pos='85.50000,155.50000' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='0' description='Ref' value='C2' show='1' pos='0.00000,-1.10000'/>
 			<FIELD type='0' description='Name' value='0.1 µF' show='1' pos='3.50000,-1.00000'/>
 			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
@@ -13534,10 +13534,10 @@ M _# :RN@;WP1G2A%AV%&gt;&#039;_XO_5_ZO_1_Z?_2_Q_I_P$W?^7\&quot;%_C3P    !)
 			<HINT pin='1' net='126'/>
 			<HINT pin='2' net='2'/>
 		</SYMBOL>
-		<WIRE a='92.00000,148.00000' b='92.00000,149.50000'/>
-		<WIRE a='106.00000,155.50000' b='106.00000,156.50000'/>
-		<WIRE a='92.00000,155.50000' b='106.00000,155.50000'/>
-		<SYMBOL id='4' pos='90.50000,121.50000' part='0' rotate='4' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+		<WIRE a='82.50000,148.00000' b='82.50000,149.50000'/>
+		<WIRE a='96.50000,155.50000' b='96.50000,156.50000'/>
+		<WIRE a='82.50000,155.50000' b='96.50000,155.50000'/>
+		<SYMBOL id='4' pos='81.00000,121.50000' part='0' rotate='4' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='0' description='Ref' value='U4' show='1' pos='-19.50000,-12.10000'/>
 			<FIELD type='0' description='Name' value='74HC14' show='1' pos='-19.50000,-10.00000'/>
 			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
@@ -13548,7 +13548,7 @@ M _# :RN@;WP1G2A%AV%&gt;&#039;_XO_5_ZO_1_Z?_2_Q_I_P$W?^7\&quot;%_C3P    !)
 			<HINT pin='2' net='118'/>
 			<HINT pin='7' net='2'/>
 		</SYMBOL>
-		<SYMBOL id='4' pos='90.50000,151.00000' part='1' rotate='4' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+		<SYMBOL id='4' pos='81.00000,151.00000' part='1' rotate='4' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='0' description='Ref' value='U4' show='1' pos='-18.50000,-9.60000'/>
 			<FIELD type='0' description='Name' value='74HC14' show='1' pos='-18.50000,-7.50000'/>
 			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
@@ -13557,15 +13557,15 @@ M _# :RN@;WP1G2A%AV%&gt;&#039;_XO_5_ZO_1_Z?_2_Q_I_P$W?^7\&quot;%_C3P    !)
 			<HINT pin='3' net='126'/>
 			<HINT pin='4' net='117'/>
 		</SYMBOL>
-		<WIRE a='92.00000,115.50000' b='94.00000,115.50000'/>
-		<WIRE a='83.50000,121.50000' b='83.50000,123.00000'/>
-		<WIRE a='83.50000,123.00000' b='92.00000,123.00000'/>
-		<WIRE a='83.50000,101.50000' b='83.50000,109.50000'/>
-		<WIRE a='90.50000,115.50000' b='92.00000,115.50000'/>
-		<WIRE a='92.00000,148.00000' b='94.00000,148.00000'/>
-		<WIRE a='90.50000,148.00000' b='92.00000,148.00000'/>
-		<POWER pos='92.00000,135.40000' which='0' direction='0'>5V</POWER>
-		<SYMBOL id='4' pos='246.50000,120.00000' part='2' rotate='4' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+		<WIRE a='82.50000,115.50000' b='84.50000,115.50000'/>
+		<WIRE a='74.00000,121.50000' b='74.00000,123.00000'/>
+		<WIRE a='74.00000,123.00000' b='82.50000,123.00000'/>
+		<WIRE a='74.00000,101.50000' b='74.00000,109.50000'/>
+		<WIRE a='81.00000,115.50000' b='82.50000,115.50000'/>
+		<WIRE a='82.50000,148.00000' b='84.50000,148.00000'/>
+		<WIRE a='81.00000,148.00000' b='82.50000,148.00000'/>
+		<POWER pos='82.50000,135.40000' which='0' direction='0'>5V</POWER>
+		<SYMBOL id='4' pos='252.50000,119.50000' part='2' rotate='4' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='0' description='Ref' value='U4' show='1' pos='-17.50000,-8.60000'/>
 			<FIELD type='0' description='Name' value='74HC14' show='1' pos='-17.50000,-6.50000'/>
 			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
@@ -13574,8 +13574,8 @@ M _# :RN@;WP1G2A%AV%&gt;&#039;_XO_5_ZO_1_Z?_2_Q_I_P$W?^7\&quot;%_C3P    !)
 			<HINT pin='5' net='2'/>
 			<HINT pin='6' net='136'/>
 		</SYMBOL>
-		<POWER pos='246.50000,145.00000' which='4' direction='1'>GND</POWER>
-		<SYMBOL id='4' pos='246.50000,128.50000' part='3' rotate='4' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+		<POWER pos='252.50000,144.50000' which='4' direction='1'>GND</POWER>
+		<SYMBOL id='4' pos='252.50000,128.00000' part='3' rotate='4' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='0' description='Ref' value='U4' show='1' pos='-17.50000,-8.60000'/>
 			<FIELD type='0' description='Name' value='74HC14' show='1' pos='-17.50000,-6.50000'/>
 			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
@@ -13584,7 +13584,7 @@ M _# :RN@;WP1G2A%AV%&gt;&#039;_XO_5_ZO_1_Z?_2_Q_I_P$W?^7\&quot;%_C3P    !)
 			<HINT pin='8' net='137'/>
 			<HINT pin='9' net='2'/>
 		</SYMBOL>
-		<SYMBOL id='4' pos='246.50000,137.00000' part='4' rotate='4' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+		<SYMBOL id='4' pos='252.50000,136.50000' part='4' rotate='4' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='0' description='Ref' value='U4' show='1' pos='-17.50000,-8.60000'/>
 			<FIELD type='0' description='Name' value='74HC14' show='1' pos='-17.50000,-6.50000'/>
 			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
@@ -13593,7 +13593,7 @@ M _# :RN@;WP1G2A%AV%&gt;&#039;_XO_5_ZO_1_Z?_2_Q_I_P$W?^7\&quot;%_C3P    !)
 			<HINT pin='10' net='138'/>
 			<HINT pin='11' net='2'/>
 		</SYMBOL>
-		<SYMBOL id='4' pos='246.50000,145.50000' part='5' rotate='4' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+		<SYMBOL id='4' pos='252.50000,145.00000' part='5' rotate='4' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='0' description='Ref' value='U4' show='1' pos='-17.50000,-8.60000'/>
 			<FIELD type='0' description='Name' value='74HC14' show='1' pos='-17.50000,-6.50000'/>
 			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
@@ -13602,26 +13602,26 @@ M _# :RN@;WP1G2A%AV%&gt;&#039;_XO_5_ZO_1_Z?_2_Q_I_P$W?^7\&quot;%_C3P    !)
 			<HINT pin='12' net='139'/>
 			<HINT pin='13' net='2'/>
 		</SYMBOL>
-		<WIRE a='246.50000,142.50000' b='246.50000,145.00000'/>
-		<WIRE a='246.50000,117.00000' b='246.50000,125.50000'/>
-		<WIRE a='246.50000,125.50000' b='246.50000,134.00000'/>
-		<WIRE a='246.50000,134.00000' b='246.50000,142.50000'/>
-		<NOCONNECT pos='229.50000,117.00000'/>
-		<NOCONNECT pos='229.50000,125.50000'/>
-		<NOCONNECT pos='229.50000,134.00000'/>
-		<NOCONNECT pos='229.50000,142.50000'/>
-		<LABEL pos='226.42212,97.63045' direction='3' font='5' color='208000' style='0'>GROUND UNUSED LOGIC INPUTS</LABEL>
-		<LABEL pos='26.42212,97.63045' direction='3' font='5' color='208000' style='0'>HARDWARE DEBOUNCING</LABEL>
+		<WIRE a='252.50000,142.00000' b='252.50000,144.50000'/>
+		<WIRE a='252.50000,116.50000' b='252.50000,125.00000'/>
+		<WIRE a='252.50000,125.00000' b='252.50000,133.50000'/>
+		<WIRE a='252.50000,133.50000' b='252.50000,142.00000'/>
+		<NOCONNECT pos='235.50000,116.50000'/>
+		<NOCONNECT pos='235.50000,125.00000'/>
+		<NOCONNECT pos='235.50000,133.50000'/>
+		<NOCONNECT pos='235.50000,142.00000'/>
+		<LABEL pos='232.42212,97.13045' direction='3' font='5' color='208000' style='0'>GROUND UNUSED LOGIC INPUTS</LABEL>
+		<LABEL pos='16.92212,97.63045' direction='3' font='5' color='208000' style='0'>HARDWARE DEBOUNCING</LABEL>
 		<POWER pos='181.00000,-12.00000' which='0' direction='1'></POWER>
-		<TEXT pos='28.50000,124.00000' direction='3' font='4' color='000000'>Connect to</TEXT>
-		<WIRE a='92.00000,148.00000' b='92.00000,146.44936'/>
-		<WIRE a='92.00000,146.44936' b='91.98010,146.44936'/>
-		<WIRE a='92.00000,135.40000' b='92.00000,136.44936'/>
-		<WIRE a='92.00000,136.44936' b='91.98010,136.44936'/>
-		<WIRE a='92.00000,103.50000' b='92.00000,101.50000'/>
-		<WIRE a='92.00000,101.50000' b='83.50000,101.50000'/>
-		<WIRE a='92.00000,115.50000' b='92.00000,113.50000'/>
-		<SYMBOL id='1' pos='60.50000,133.50000' part='0' rotate='4' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+		<TEXT pos='19.00000,124.00000' direction='3' font='4' color='000000'>Connect to</TEXT>
+		<WIRE a='82.50000,148.00000' b='82.50000,146.44936'/>
+		<WIRE a='82.50000,146.44936' b='82.48010,146.44936'/>
+		<WIRE a='82.50000,135.40000' b='82.50000,136.44936'/>
+		<WIRE a='82.50000,136.44936' b='82.48010,136.44936'/>
+		<WIRE a='82.50000,103.50000' b='82.50000,101.50000'/>
+		<WIRE a='82.50000,101.50000' b='74.00000,101.50000'/>
+		<WIRE a='82.50000,115.50000' b='82.50000,113.50000'/>
+		<SYMBOL id='1' pos='51.00000,133.50000' part='0' rotate='4' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='0' description='Ref' value='J4' show='1' pos='-7.50000,-7.50000'/>
 			<FIELD type='0' description='Name' value='Conn_2' show='1' pos='-8.00000,3.00000'/>
 			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
@@ -13630,13 +13630,13 @@ M _# :RN@;WP1G2A%AV%&gt;&#039;_XO_5_ZO_1_Z?_2_Q_I_P$W?^7\&quot;%_C3P    !)
 			<HINT pin='1' net='118'/>
 			<HINT pin='2' net='117'/>
 		</SYMBOL>
-		<WIRE a='73.50000,115.50000' b='66.50000,115.50000'/>
-		<WIRE a='66.50000,115.50000' b='66.50000,128.50000'/>
-		<WIRE a='66.50000,128.50000' b='60.50000,128.50000'/>
-		<WIRE a='60.50000,131.50000' b='66.50000,131.50000'/>
-		<WIRE a='66.50000,131.50000' b='66.50000,148.00000'/>
-		<WIRE a='66.50000,148.00000' b='73.50000,148.00000'/>
-		<SYMBOL id='6' pos='193.50000,145.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+		<WIRE a='64.00000,115.50000' b='57.00000,115.50000'/>
+		<WIRE a='57.00000,115.50000' b='57.00000,128.50000'/>
+		<WIRE a='57.00000,128.50000' b='51.00000,128.50000'/>
+		<WIRE a='51.00000,131.50000' b='57.00000,131.50000'/>
+		<WIRE a='57.00000,131.50000' b='57.00000,148.00000'/>
+		<WIRE a='57.00000,148.00000' b='64.00000,148.00000'/>
+		<SYMBOL id='6' pos='196.50000,144.50000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='0' description='Ref' value='SW1' show='1' pos='-9.00000,-8.10000'/>
 			<FIELD type='0' description='Name' value='Right Switch Tactile' show='1' pos='-11.00000,2.50000'/>
 			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
@@ -13647,7 +13647,7 @@ M _# :RN@;WP1G2A%AV%&gt;&#039;_XO_5_ZO_1_Z?_2_Q_I_P$W?^7\&quot;%_C3P    !)
 			<HINT pin='3' net='144'/>
 			<HINT pin='4' net='145'/>
 		</SYMBOL>
-		<SYMBOL id='6' pos='193.50000,128.50000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+		<SYMBOL id='6' pos='196.50000,128.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='0' description='Ref' value='SW2' show='1' pos='-9.00000,-8.10000'/>
 			<FIELD type='0' description='Name' value='Left Switch Tactile' show='1' pos='-11.00000,2.50000'/>
 			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
@@ -13658,10 +13658,6 @@ M _# :RN@;WP1G2A%AV%&gt;&#039;_XO_5_ZO_1_Z?_2_Q_I_P$W?^7\&quot;%_C3P    !)
 			<HINT pin='3' net='146'/>
 			<HINT pin='4' net='147'/>
 		</SYMBOL>
-		<JUNCTION pos='83.50000,101.50000'/>
-		<JUNCTION pos='92.00000,123.00000'/>
-		<JUNCTION pos='92.00000,115.50000'/>
-		<JUNCTION pos='92.00000,148.00000'/>
 		<SYMBOL id='1' pos='64.50000,43.50000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='0' description='Ref' value='J1' show='1' pos='-3.50000,5.90000'/>
 			<FIELD type='0' description='Name' value='Conn_2' show='0' pos='1.00000,-5.00000'/>
@@ -13702,7 +13698,7 @@ M _# :RN@;WP1G2A%AV%&gt;&#039;_XO_5_ZO_1_Z?_2_Q_I_P$W?^7\&quot;%_C3P    !)
 		<WIRE a='56.50000,45.48213' b='66.50000,45.48213'/>
 		<WIRE a='66.50000,38.50000' b='66.50000,35.00000'/>
 		<WIRE a='56.50000,35.00000' b='66.50000,35.00000'/>
-		<SYMBOL id='7' pos='137.00000,138.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+		<SYMBOL id='7' pos='127.50000,138.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='0' description='Ref' value='J5' show='1' pos='-3.00000,5.40000'/>
 			<FIELD type='0' description='Name' value='Conn_3' show='0' pos='-4.00000,-11.00000'/>
 			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
@@ -13712,25 +13708,24 @@ M _# :RN@;WP1G2A%AV%&gt;&#039;_XO_5_ZO_1_Z?_2_Q_I_P$W?^7\&quot;%_C3P    !)
 			<HINT pin='2' net='2'/>
 			<HINT pin='3' net='127'/>
 		</SYMBOL>
-		<WIRE a='106.00000,123.00000' b='106.00000,124.00000'/>
-		<WIRE a='129.00000,133.00000' b='112.00000,133.00000'/>
-		<WIRE a='112.00000,133.00000' b='112.00000,123.00000'/>
-		<WIRE a='106.00000,123.00000' b='92.00000,123.00000'/>
-		<JUNCTION pos='106.00000,123.00000'/>
-		<WIRE a='112.00000,123.00000' b='106.00000,123.00000'/>
-		<WIRE a='125.00000,115.50000' b='125.00000,130.00000'/>
-		<WIRE a='125.00000,130.00000' b='129.00000,130.00000'/>
-		<WIRE a='104.00000,148.00000' b='125.00000,148.00000'/>
-		<WIRE a='125.00000,148.00000' b='125.00000,136.00000'/>
-		<WIRE a='125.00000,136.00000' b='129.00000,136.00000'/>
-		<WIRE a='174.00000,138.00000' b='180.50000,138.00000'/>
-		<WIRE a='180.50000,127.50000' b='174.00000,127.50000'/>
-		<WIRE a='174.00000,133.00000' b='174.00000,138.00000'/>
-		<WIRE a='104.00000,115.50000' b='125.00000,115.50000'/>
-		<NOCONNECT pos='193.50000,121.50000'/>
-		<NOCONNECT pos='193.50000,127.50000'/>
-		<NOCONNECT pos='193.50000,138.00000'/>
-		<NOCONNECT pos='193.50000,144.00000'/>
+		<WIRE a='96.50000,123.00000' b='96.50000,124.00000'/>
+		<WIRE a='119.50000,133.00000' b='102.50000,133.00000'/>
+		<WIRE a='102.50000,133.00000' b='102.50000,123.00000'/>
+		<WIRE a='96.50000,123.00000' b='82.50000,123.00000'/>
+		<WIRE a='102.50000,123.00000' b='96.50000,123.00000'/>
+		<WIRE a='115.50000,115.50000' b='115.50000,130.00000'/>
+		<WIRE a='115.50000,130.00000' b='119.50000,130.00000'/>
+		<WIRE a='94.50000,148.00000' b='115.50000,148.00000'/>
+		<WIRE a='115.50000,148.00000' b='115.50000,136.00000'/>
+		<WIRE a='115.50000,136.00000' b='119.50000,136.00000'/>
+		<WIRE a='177.00000,137.50000' b='183.50000,137.50000'/>
+		<WIRE a='183.50000,127.00000' b='177.00000,127.00000'/>
+		<WIRE a='177.00000,132.50000' b='177.00000,137.50000'/>
+		<WIRE a='94.50000,115.50000' b='115.50000,115.50000'/>
+		<NOCONNECT pos='196.50000,121.00000'/>
+		<NOCONNECT pos='196.50000,127.00000'/>
+		<NOCONNECT pos='196.50000,137.50000'/>
+		<NOCONNECT pos='196.50000,143.50000'/>
 		<LABEL pos='26.42212,24.63045' direction='3' font='5' color='208000' style='0'>5.1V POWER TO EVERYTHING</LABEL>
 		<JUNCTION pos='56.50000,45.48213'/>
 		<JUNCTION pos='56.50000,35.00000'/>
@@ -13739,9 +13734,6 @@ M _# :RN@;WP1G2A%AV%&gt;&#039;_XO_5_ZO_1_Z?_2_Q_I_P$W?^7\&quot;%_C3P    !)
 		<TEXT pos='97.50000,38.00000' direction='3' font='4' color='000000'>J1 to Arduino MEGA 5V and GND in POWER section</TEXT>
 		<TEXT pos='97.50000,42.00000' direction='3' font='4' color='000000'>J2 to GPS VCC and GND pins </TEXT>
 		<TEXT pos='97.50000,46.00000' direction='3' font='4' color='000000'>J3 to LCD VCC and GND pins (2 and 1) </TEXT>
-		<JUNCTION pos='246.50000,125.50000'/>
-		<JUNCTION pos='246.50000,134.00000'/>
-		<JUNCTION pos='246.50000,142.50000'/>
 		<POWER pos='48.50000,32.50000' which='0' direction='0'>5V</POWER>
 		<POWER pos='48.50000,49.50000' which='4' direction='1'>GND</POWER>
 		<WIRE a='48.50000,45.50000' b='48.50000,45.48213'/>
@@ -13755,7 +13747,7 @@ M _# :RN@;WP1G2A%AV%&gt;&#039;_XO_5_ZO_1_Z?_2_Q_I_P$W?^7\&quot;%_C3P    !)
 		<WIRE a='45.16666,45.50000' b='45.16666,45.62629'/>
 		<NOCONNECT pos='45.14322,38.73711'/>
 		<NOCONNECT pos='45.12692,42.21865'/>
-		<SYMBOL id='8' pos='154.00000,142.00000' part='0' rotate='4' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+		<SYMBOL id='8' pos='157.00000,141.50000' part='0' rotate='4' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='0' description='Ref' value='J8' show='1' pos='-7.50000,-4.10000'/>
 			<FIELD type='0' description='Name' value='Conn_1' show='0' pos='-7.50000,-4.00000'/>
 			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
@@ -13763,7 +13755,7 @@ M _# :RN@;WP1G2A%AV%&gt;&#039;_XO_5_ZO_1_Z?_2_Q_I_P$W?^7\&quot;%_C3P    !)
 			<FIELD type='1' description='Package' value='SIP1' show='0' pos='1.00000,2.80000'/>
 			<HINT pin='1' net='153'/>
 		</SYMBOL>
-		<SYMBOL id='8' pos='154.00000,135.00000' part='0' rotate='4' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+		<SYMBOL id='8' pos='157.00000,134.50000' part='0' rotate='4' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='0' description='Ref' value='J7' show='1' pos='-7.50000,-4.10000'/>
 			<FIELD type='0' description='Name' value='Conn_1' show='0' pos='-7.50000,-4.00000'/>
 			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
@@ -13771,7 +13763,7 @@ M _# :RN@;WP1G2A%AV%&gt;&#039;_XO_5_ZO_1_Z?_2_Q_I_P$W?^7\&quot;%_C3P    !)
 			<FIELD type='1' description='Package' value='SIP1' show='0' pos='1.00000,2.80000'/>
 			<HINT pin='1' net='151'/>
 		</SYMBOL>
-		<SYMBOL id='8' pos='154.00000,128.00000' part='0' rotate='4' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+		<SYMBOL id='8' pos='157.00000,127.50000' part='0' rotate='4' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='0' description='Ref' value='J6' show='1' pos='-7.50000,-4.10000'/>
 			<FIELD type='0' description='Name' value='Conn_1' show='0' pos='-8.00000,-4.50000'/>
 			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
@@ -13779,17 +13771,25 @@ M _# :RN@;WP1G2A%AV%&gt;&#039;_XO_5_ZO_1_Z?_2_Q_I_P$W?^7\&quot;%_C3P    !)
 			<FIELD type='1' description='Package' value='SIP1' show='0' pos='1.00000,2.80000'/>
 			<HINT pin='1' net='152'/>
 		</SYMBOL>
-		<WIRE a='154.00000,126.00000' b='159.00000,126.00000'/>
-		<WIRE a='159.00000,126.00000' b='159.00000,121.50000'/>
-		<WIRE a='159.00000,121.50000' b='180.50000,121.50000'/>
-		<WIRE a='154.00000,133.00000' b='174.00000,133.00000'/>
-		<WIRE a='174.00000,127.50000' b='174.00000,133.00000'/>
-		<WIRE a='154.00000,140.00000' b='159.00000,140.00000'/>
-		<WIRE a='159.00000,140.00000' b='159.00000,144.00000'/>
-		<WIRE a='159.00000,144.00000' b='180.50000,144.00000'/>
-		<JUNCTION pos='174.00000,133.00000'/>
-		<RECTANGLE a='143.00000,111.00000' b='204.00000,156.00000' style='6' fill='0'/>
-		<LABEL pos='143.42212,109.63045' direction='3' font='5' color='208000' style='0'>2 Buttons on seperate mini circuit board</LABEL>
-		<TEXT pos='144.00000,115.00000' direction='3' font='4' color='000000'>J6 =&gt; J5(1), J7 =&gt; J5(2), J8 =&gt; J5(3)</TEXT>
+		<WIRE a='157.00000,125.50000' b='162.00000,125.50000'/>
+		<WIRE a='162.00000,125.50000' b='162.00000,121.00000'/>
+		<WIRE a='162.00000,121.00000' b='183.50000,121.00000'/>
+		<WIRE a='157.00000,132.50000' b='177.00000,132.50000'/>
+		<WIRE a='177.00000,127.00000' b='177.00000,132.50000'/>
+		<WIRE a='157.00000,139.50000' b='162.00000,139.50000'/>
+		<WIRE a='162.00000,139.50000' b='162.00000,143.50000'/>
+		<WIRE a='162.00000,143.50000' b='183.50000,143.50000'/>
+		<RECTANGLE a='146.00000,110.50000' b='207.00000,155.50000' style='6' fill='0'/>
+		<LABEL pos='144.42212,107.63045' direction='3' font='5' color='208000' style='0'>2 Buttons on seperate mini circuit board</LABEL>
+		<TEXT pos='147.00000,114.50000' direction='3' font='4' color='000000'>J6 =&gt; J5(1), J7 =&gt; J5(2), J8 =&gt; J5(3)</TEXT>
+		<JUNCTION pos='177.00000,132.50000'/>
+		<JUNCTION pos='74.00000,101.50000'/>
+		<JUNCTION pos='82.50000,123.00000'/>
+		<JUNCTION pos='82.50000,115.50000'/>
+		<JUNCTION pos='82.50000,148.00000'/>
+		<JUNCTION pos='96.50000,123.00000'/>
+		<JUNCTION pos='252.50000,125.00000'/>
+		<JUNCTION pos='252.50000,133.50000'/>
+		<JUNCTION pos='252.50000,142.00000'/>
 	</TinyCAD>
 </TinyCADSheets>
