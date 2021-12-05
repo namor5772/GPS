@@ -1,15 +1,15 @@
 # GPS
 A GPS unit with custom clock and speed screens
 
-Based on A GPS receiver board with included antenna using the NEO6MV2 module, outputting NMEA data at 9600 baud each second. All is coordinated by a MEGA 2560 compatible microcontroller board. Information is displayed on a 128x64 LCD screen. Control is effected by just two push buttons interfaced to the microcontroller with a hardware debouncing circuit that utilizes a 74HC14 Schmitt trigger IC.
+Based on A GPS receiver board with included antenna using the NEO6MV2 module, outputting NMEA data at 9600 baud each second. All is coordinated by a MEGA 2560 compatible microcontroller board. Information is displayed on a 128x64 LCD screen. Control is effected by just two push buttons interfaced to the microcontroller with a hardware debouncing circuit utilizing a 74HC14 Schmitt trigger IC.
 
 There are three screens available:
 
-The main one displays the current time, date, lattitude, longtitude, speed (SOG) and height (ASL). A calculated day of the week shown as (m, t, w, T, f, s, S) is displayed before the date. There is a facility to edit an offset to the UTC for displaying the local time. This is retained when power is off. This is intended for outdoor use when navigating in the great outdoors.
+The main one displays the current time, date, lattitude, longtitude, speed (SOG) and height (ASL). A calculated day of the week is shown as (m, t, w, T, f, s, S) and displayed before the date. There is a facility to edit an offset to the UTC for displaying local time. This is retained when power is off. This screen is intended for outdoor use when navigating in the great outdoors.
 
-The second screen just displays time (UTC+adjustment) and date, with calculated day of week shown as (Mon, Tue, Wed, Thu, Fri, Sat, Sun). Large fonts are used. This is intended to be used as a household clock.
+The second screen just displays time (UTC+adjustment) and date, with a calculated day of week shown as (Mon, Tue, Wed, Thu, Fri, Sat, Sun). Large fonts are used. This screen is intended for use as a household clock.
 
-The third screen just displays speed over ground (SOG) in km/h. It uses a larger font and only shows to the nearest km/h, ie. no decimals. This is intended for vehicle use.
+The third screen just displays speed over ground (SOG) in km/h. It uses a larger font and display only to the nearest km/h, ie. no decimals. This screen is intended as a vehicle speedometer.
 
 ## List of parts
 
