@@ -11,6 +11,9 @@ The second screen just displays time (UTC+adjustment) and date, with a calculate
 
 The third screen just displays speed over ground (SOG) in km/h. It uses a larger font and display only to the nearest km/h, ie. no decimals. This screen is intended as a vehicle speedometer.
 
+There are 5 modules in this build:
+The Arduino MEGA 2560 microcontroller module
+
 ## List of parts
 
 ### Core Components
