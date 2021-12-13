@@ -11,6 +11,13 @@ File,19
   "Pattern" : "Strip"
 },
 "CelledOutlines" : [
+  { "Name" : "SIP3", "Locked" : false,
+    "Rows" : [
+    [{"Pin" : "1"}],
+    [{"Pin" : "2"}],
+    [{"Pin" : "3"}]
+    ]
+  },
   { "Name" : "SIP20", "Locked" : false,
     "Rows" : [
     [{"Pin" : "1"}],
@@ -33,13 +40,6 @@ File,19
     [{"Pin" : "18"}],
     [{"Pin" : "19"}],
     [{"Pin" : "20"}]
-    ]
-  },
-  { "Name" : "SIP3", "Locked" : false,
-    "Rows" : [
-    [{"Pin" : "1"}],
-    [{"Pin" : "2"}],
-    [{"Pin" : "3"}]
     ]
   }
 ],
@@ -94,14 +94,14 @@ File,19
 "SmdOutlines" : [
 ],
 "Components" : [
-  { "Designator" : "J4", "Value" : "Conn_20", "Outline" : "SIP20",
-  "X1000" : 0, "Y1000" : 19000, "EndDeltaX" : 0, "EndDeltaY" : -1,
-  "Text" : { "X" : -1, "Y" : 17, "Angle" : 90, "Visible" : true },
-  "Group" : 0
-  },
   { "Designator" : "J3", "Value" : "Conn_2", "Outline" : "BOX2_2X",
   "X1000" : 5000, "Y1000" : 20000, "EndDeltaX" : 0, "EndDeltaY" : -1,
   "Text" : { "X" : 1, "Y" : 3, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "J4", "Value" : "Conn_20", "Outline" : "SIP20",
+  "X1000" : 0, "Y1000" : 19000, "EndDeltaX" : 0, "EndDeltaY" : -1,
+  "Text" : { "X" : -1, "Y" : 17, "Angle" : 90, "Visible" : true },
   "Group" : 0
   },
   { "Designator" : "J5", "Value" : "Conn_3", "Outline" : "BOX3_2X",
@@ -116,9 +116,9 @@ File,19
   }
 ],
 "Links" : [
+  { "X" : 3, "Y" : 0, "EndDeltaX" : 0, "EndDeltaY" : 5, "Group" : 0 },
   { "X" : 1, "Y" : 4, "EndDeltaX" : 0, "EndDeltaY" : 14, "Group" : 0 },
-  { "X" : 2, "Y" : 5, "EndDeltaX" : 0, "EndDeltaY" : 14, "Group" : 0 },
-  { "X" : 3, "Y" : 0, "EndDeltaX" : 0, "EndDeltaY" : 5, "Group" : 0 }
+  { "X" : 2, "Y" : 5, "EndDeltaX" : 0, "EndDeltaY" : 14, "Group" : 0 }
 ],
 "Breaks" : [
 ],
