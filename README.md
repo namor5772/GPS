@@ -1,18 +1,23 @@
 # GPS
+
 A GPS unit with custom clock and speed screens
 
 Based on A GPS receiver board with included antenna using the NEO6MV2 module, outputting NMEA data at 9600 baud each second. All is coordinated by a MEGA 2560 compatible microcontroller board. Information is displayed on a 128x64 LCD screen. Control is effected by just two push buttons interfaced to the microcontroller with a hardware debouncing circuit utilizing a 74HC14 Schmitt trigger IC.
 
 There are three screens available:
 
-The main one displays the current time, date, lattitude, longtitude, speed (SOG) and height (ASL). A calculated day of the week is shown as (m, t, w, T, f, s, S) and displayed before the date. There is a facility to edit an offset to the UTC for displaying local time. This is retained when power is off. This screen is intended for outdoor use when navigating in the great outdoors.
-
-The second screen just displays time (UTC+adjustment) and date, with a calculated day of week shown as (Mon, Tue, Wed, Thu, Fri, Sat, Sun). Large fonts are used. This screen is intended for use as a household clock.
-
-The third screen just displays speed over ground (SOG) in km/h. It uses a larger font and display only to the nearest km/h, ie. no decimals. This screen is intended as a vehicle speedometer.
+1. Displays the current time, date, lattitude, longtitude, speed (SOG) and height (ASL). A calculated day of the week is shown as (m, t, w, T, f, s, S) and displayed before the date. There is a facility to edit an offset to the UTC for displaying local time. This is retained when power is off. This screen is intended for outdoor use when navigating in the great outdoors.
+2. Just displays the time (UTC+adjustment) and date, with a calculated day of week shown as (Mon, Tue, Wed, Thu, Fri, Sat, Sun). Large fonts are used. This screen is intended for use as a household clock.
+3. Just displays the speed over ground (SOG) in km/h. It uses a larger font and display only to the nearest km/h, ie. no decimals. This screen is intended as a vehicle speedometer.
 
 There are 5 modules in this build:
-The Arduino MEGA 2560 microcontroller module
+
+1. The Arduino MEGA 2560 microcontroller [module]
+2. The GPR Receiver [module](https://jaycar.com.au/p/XC3712)
+3. The LCD module with attached [interfacing circuit](Hardware/GPSboardB.png)
+4. The [main circuit board](Hardware/GPSboardA.png) for power input and hardware debouncing.
+
+
 
 ## List of parts
 
