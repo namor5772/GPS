@@ -8,7 +8,7 @@
 #define BMAX 1024 // max size for buffer
 #define BSML 16 // small buffer size
 #define GPSM 85 // millisecond gap for saving gps message, 80 is the minimum stable level.
-#define SECA 2 // reduced decinmal places for seconds of position
+#define SECA 2 // reduced decimal places for seconds of position
 #define SCHR 32 // char to replace blank in NA message (95 = underline)
 #define SCREEN_NUM 3 // number of user screens
 
