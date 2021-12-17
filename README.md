@@ -19,9 +19,9 @@ There are three screens available:
 
     <img src="Images/Screen3.jpg" width="300" height="200">
 
-On power up the 1st screen is displayed. You can cycle through the screens by repeatedly pressing the left of the two buttons.
+On power up the 1st screen is displayed. You can cycle through the screens by repeatedly pressing LB, ie. the left of the two buttons.
 
-There are 5 modules in this build:
+There are just 5 obviously interconnected modules in this build:
 
 1. The Arduino MEGA 2560 microcontroller [module]
 2. The GPR Receiver [module](https://jaycar.com.au/p/XC3712)
