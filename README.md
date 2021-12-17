@@ -35,6 +35,7 @@ There are three screens available:
     <img src="Images/Screen3.jpg" width="300" height="200">
 
 On power up the 1st screen is displayed. You can cycle through the screens by repeatedly pressing LB, ie. the left of the two buttons.
+## HARDWARE
 
 There are just 5 modules in this build. Below we describe them and their interconnections:
 
@@ -59,7 +60,7 @@ There are just 5 modules in this build. Below we describe them and their interco
 1. The [mini circuit board](Images/miniboard.jpg) that contains the two pushbuttons used for interfacing to this GPS unit.
     - The veroboard layout is given [here](Images/miniboardvero.jpg), with copper tracks assumed underneath.
     - Connected to the main circuit board via soldered wires from J6, J7 and J8 as described above.
-
+## SOFTWARE
 
 ## List of parts
 
@@ -77,7 +78,7 @@ There are just 5 modules in this build. Below we describe them and their interco
 |2| [MCCB](https://au.element14.com/multicomp/mccb1v104m2acb/cap-0-1-f-35v-20/dp/9708480) | Tantalum Capacitor, 0.1 µF, 35 V, MCCB Series, ± 20%, Radial Leaded, 5.08 mm | $0.96 | used in hardware debounce circuit | C1, C2 |
 |1| [PS0916](https://jaycar.com.au/p/PS0916) | USB TYPE A PC MOUNT Socket | $2.95 | 5.1V power for circuit | U3 |
 |2| [SP0721](https://jaycar.com.au/p/SP0721) | Black Snap Action Keyboard Switch - PCB Mount | $2.90 | interface control | SW1, SW2 |
-### Core Components
+### Other Components
 
 | Qty | Product | Description | AUD Cost | Comment | Designator |
 | --- | --- | --- | --- | --- | --- |
