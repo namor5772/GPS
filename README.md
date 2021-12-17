@@ -1,4 +1,4 @@
-# GPS
+# GPS reader
 
 A GPS unit with custom clock and speed screens
 
