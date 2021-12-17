@@ -16,7 +16,7 @@ There are three screens available:
 
     <img src="Images/Screen3.jpg" width="300" height="200">
 
-On power up the 1st screen is displayed. You can then cycle through the other screens by repeatedly pressing the left button.
+On power up the 1st screen is displayed. You can cycle through the screens by repeatedly pressing the left of the two buttons.
 
 There are 5 modules in this build:
 
