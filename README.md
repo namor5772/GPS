@@ -15,7 +15,7 @@ There are three screens available:
 3. Just displays the speed over ground (SOG) in km/h. It uses a larger font and display only to the nearest km/h, ie. no decimals. This screen is intended as a vehicle speedometer.
 
     <img src="Images/Screen3.jpg" width="300" height="200">
-    
+
 On power up the 1st screen is displayed. You can then cycle through the other screens by repeatedly pressing the left button.
 
 There are 5 modules in this build:
