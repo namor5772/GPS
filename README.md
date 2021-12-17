@@ -9,7 +9,10 @@ There are three screens available:
 1. Displays the current time, date, lattitude, longtitude, speed (SOG) and height (ASL). A calculated day of the week is shown as (m, t, w, T, f, s, S) and displayed before the date. There is a facility to edit an offset to the UTC for displaying local time. This is retained when power is off. This screen is intended for navigating in the great outdoors.
 
     <img src="Images/Screen1.jpg" width="300" height="200">
-2. Just displays the time (UTC+adjustment) and date, with a calculated day of week shown as (Mon, Tue, Wed, Thu, Fri, Sat, Sun). Large fonts are used. This screen is intended for use as a household clock.
+
+    The UTC offset occupies 4 character positions at the top right of the screen. Press RB (right button) to enter edit mode, with an underscore appearing under the 1st character to be edited. Now press LB (left button) several times to set the 1st character (the available characters are "blank",+,-,0,1,2,3,4,5,6,7,8,9,½). Press RB again and then RL several times to set the 2nd character. Repeat for 3rd and 4th characters. Finally press RB which exits edit mode. This error checks the input for validity, reformats it if necessary and redisplays it. An error becomes "  +0" while eg. "-½ 1" becomes "  -½". Non-edit mode is indicated by a "●" appearing under the 4th character.  
+
+2. Just displays the time (UTC+adjustment) and date, with a calculated day of week shown as (Mon, Tue, Wed, Thu, Fri, Sat, Sun). Large fonts are used. This screen is intended for use as a household clock. In the top right had corner of the screen is displayed the adjustment in hours (and/or halves) to UTC that gives us the actual displayed time and date.
 
     <img src="Images/Screen2.jpg" width="300" height="200">
 3. Just displays the speed over ground (SOG) in km/h. It uses a larger font and display only to the nearest km/h, ie. no decimals. This screen is intended as a vehicle speedometer.
