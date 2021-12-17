@@ -6,6 +6,19 @@ This github repository details the construction of a GPS unit with custom clock 
 
 It is based on a GPS receiver board with included antenna using the NEO6MV2 module, outputting NMEA data at 9600 baud each second. All is coordinated by a MEGA 2560 compatible microcontroller board. Information is displayed on a 128x64 LCD screen. Control is effected by just two push buttons interfaced to the microcontroller with a hardware debouncing circuit utilizing a 74HC14 Schmitt trigger IC. Power at 5.1V is assumed to be supplied into a USB-A female connector.
 
+## USAGE
+
+The unit will start up when powered via the USB-A connector at 5.1V.
+
+It might take a long time to get a fix on satelites. Be patient. During that time some data fields will be blank or display NA.
+
+Control of the unit is effected by just two push buttons situated on the left of the LCD screen. We will name them LB and RB (left and right buttons respectively) for later use.
+
+The unit can also be powered and/or programmed from the exposed USB-B port of the Arduino MEGA. If only powered via the Arduino MEGA the LCD display might be dimmer.
+Powering the unit simultaniously via the USB-A and the Arduino MEGA USB-B connectors does not seem to cause problems, thought it is probably best avoided.
+
+![alt text](Images/InCase.jpg "GPS unit case")
+
 There are three screens available:
 
 1. Displays the current time, date, lattitude, longtitude, speed (SOG) and height (ASL). A calculated day of the week is shown as (m, t, w, T, f, s, S) and displayed before the date. There is a facility to edit an offset to the UTC for displaying local time. This is retained when power is off. This screen is intended for navigating in the great outdoors.
@@ -38,13 +51,15 @@ There are just 5 modules in this build. Below we describe them and their interco
     - Power is supplied to the VCC and GND pins (ie. J3-2 and J3-1) from J3-1 and J3-2 on the main circuit board.
     - The display is controlled via pins J5-1, J5-2 and J5-3 connected the to Arduino MEGA as detailed above.
 1. The [main circuit board](Images/GPSboardA.png) for power input and hardware debouncing.
-    - The veroboard layout is given [here](Images/GPSboardA.pdf).
+    - The veroboard layout is given [here](Images/GPSboardA.pdf), with copper tracks assumed underneath.
     - Powered by the USB-A connector.
     - Power supplied to three other modules (arduino MEGA, GPS Receiver and LCD module) via J1, J2 and J3 as described above.
     - Hardware debouncing to Arduino MEGA via J4 as described above.
     - Connected to pushbutton containing mini circuit board. J5-1, J5-2 (Ground) and J5-3 are connected to J6, J7 and J8 respectively on the mini circuit board
 1. The [mini circuit board](Images/miniboard.jpg) that contains the two pushbuttons used for interfacing to this GPS unit.
-    - The veroboard layout is given [here](Images/ miniboardvero.jpg).
+    - The veroboard layout is given [here](Images/miniboardvero.jpg), with copper tracks assumed underneath.
+    - Connected to the main circuit board via soldered wires from J6, J7 and J8 as described above.
+
 
 ## List of parts
 
@@ -62,3 +77,8 @@ There are just 5 modules in this build. Below we describe them and their interco
 |2| [MCCB](https://au.element14.com/multicomp/mccb1v104m2acb/cap-0-1-f-35v-20/dp/9708480) | Tantalum Capacitor, 0.1 µF, 35 V, MCCB Series, ± 20%, Radial Leaded, 5.08 mm | $0.96 | used in hardware debounce circuit | C1, C2 |
 |1| [PS0916](https://jaycar.com.au/p/PS0916) | USB TYPE A PC MOUNT Socket | $2.95 | 5.1V power for circuit | U3 |
 |2| [SP0721](https://jaycar.com.au/p/SP0721) | Black Snap Action Keyboard Switch - PCB Mount | $2.90 | interface control | SW1, SW2 |
+### Core Components
+
+| Qty | Product | Description | AUD Cost | Comment | Designator |
+| --- | --- | --- | --- | --- | --- |
+|1| [XC3712](https://jaycar.com.au/p/XC3712) | GPS Receiver Module| $49.95 | A GPS receiver using the NEO6MV2 module, outputting NMEA data at 9600 baud. | connected 
