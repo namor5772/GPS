@@ -43,9 +43,9 @@ There are just 5 modules in this build. Below we describe them and their interco
     - Power supplied to three other modules (arduino MEGA, GPS Receiver and LCD module) via J1, J2 and J3 as described above.
     - Hardware debouncing to Arduino MEGA via J4 as described above.
     - Connected to pushbutton containing mini circuit board. J5-1, J5-2 (Ground) and J5-3 are connected to J6, J7 and J8 respectively on the mini circuit board
-
 1. The [mini circuit board](Images/miniboard.jpg) that contains the two pushbuttons used for interfacing to this GPS unit.
     - The veroboard layout is given [here](Images/ miniboardvero.jpg).
+
 ## List of parts
 
 ### Core Components
