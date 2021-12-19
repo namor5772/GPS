@@ -25,7 +25,7 @@ There are three screens available:
 
     <img src="Images/Screen1.jpg" width="300" height="200">
 
-    The UTC offset occupies 4 character positions at the top right of the screen. Press RB (right button) to enter edit mode, with an underscore appearing under the 1st character to be edited. Now press LB (left button) several times to set the 1st character (the available characters are "blank",+,-,0,1,2,3,4,5,6,7,8,9,½). Press RB again and then RL several times to set the 2nd character. Repeat for 3rd and 4th characters. Finally press RB which exits edit mode. This error checks the input for validity, reformats it if necessary and redisplays it. An error becomes "  +0" while eg. "-½ 1" becomes "  -½". Non-edit mode is indicated by a "●" appearing under the 4th character.  
+    The UTC offset occupies 4 character positions at the top right of the screen. +11 in the picture above. Non-edit mode is indicated by a "●" appearing under the 4th character. Press RB to enter edit mode, with an underscore appearing under the 1st character to be edited and "●" disappearing. Now press LB several times to set the 1st character (the available characters being "blank",+,-,0,1,2,3,4,5,6,7,8,9 and ½). Press RB again and then RL several times to set the 2nd character. Repeat for 3rd and 4th characters. Finally press RB which exits edit mode and "●" reappears. This error checks the input for validity, reformats it if necessary and redisplays it. An error becomes "  +0" while eg. "-½ 1" becomes "  -½".
 
 1. Just displays the time (UTC+adjustment) and date, with a calculated day of week shown as (Mon, Tue, Wed, Thu, Fri, Sat, Sun). Large fonts are used. This screen is intended for use as a household clock. In the top right had corner of the screen is displayed the adjustment in hours (and/or halves) to UTC that gives us the actual displayed time and date.
 
@@ -34,7 +34,7 @@ There are three screens available:
 
     <img src="Images/Screen3.jpg" width="300" height="200">
 
-On power up the 1st screen is displayed. You can cycle through the screens by repeatedly pressing LB, ie. the left of the two buttons.
+On power up the 1st screen is displayed. You can cycle through the screens by repeatedly pressing LB.
 ## HARDWARE
 
 There are just 5 modules in this build. Below we describe them and their interconnections:
@@ -60,8 +60,12 @@ There are just 5 modules in this build. Below we describe them and their interco
 1. The [mini circuit board](Images/miniboard.jpg) that contains the two pushbuttons used for interfacing to this GPS unit.
     - The veroboard layout is given [here](Images/miniboardvero.jpg), with copper tracks assumed underneath.
     - Connected to the main circuit board via soldered wires from J6, J7 and J8 as described above.
+
 ## SOFTWARE
 
+Software for the MEGA 2560 microprocessor is compiled using the Arduino IDE and loaded using the USB-A to USB-B cable from the Windows 10 PC.
+
+The software runs a loop which ... 
 ## List of parts
 
 ### Core Components
