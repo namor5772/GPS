@@ -64,7 +64,11 @@ There are just 5 modules in this build. Below we describe them and their interco
 ## SOFTWARE
 
 Software for the MEGA 2560 microprocessor is compiled using the Arduino IDE and loaded using the USB-A to USB-B cable from the Windows 10 PC.
-The main file is [MyST7920.ino](Code/MyST7920/MyST7920.ino)
+The main file is [MyST7920.ino](Code/MyST7920/MyST7920.ino) ,  there are also three custom files in the same directory.
+
+A minimal bit-bashed SPI driver for ST7920 based LCDs in [ST7920.h](Code/MyST7920/ST7920.h) and [ST7920.cpp](Code/MyST7920/ST7920.cpp)
+
+Bitmaps for fonts and a buffer used by the LCD in [bitmaps.h](Code/MyST7920/bitmaps.h)
 
 The software runs a loop which ... 
 ## List of parts
