@@ -276,7 +276,7 @@ void setup() {
     }        
 }
 
-void loop() {
+void loop() {    
     if (stateA==HIGH) {
         Serial.print(" *** ACT ON BUTTON A PRESS "); Serial.print(NumA); Serial.print(" TIMES ***\n");
         ColOfs = (NumA+ColOfs)%EditFields[ScreenID];

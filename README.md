@@ -70,7 +70,28 @@ A minimal bit-bashed SPI driver for ST7920 based LCDs in [ST7920.h](Code/MyST792
 
 Bitmaps for fonts and a buffer used by the LCD in [bitmaps.h](Code/MyST7920/bitmaps.h)
 
-The software runs a loop which ... 
+The setup code :
+
+1. Sets up interrupt servicing routines for the two interface buttons
+2. Set up serial connections for debugging in the IDE at 56600 bps and connection to the GPS module at 9600 bps.
+3. Display a cool startup scrteen for 10 seconds.
+4. Setup to display screen 1.
+
+The software the runs in a loop (like all Arduino code) which:
+
+1. Responds to button presses which are originally picked up via interrupts. This is quite involved since button behaviour depends on which screen you are displaying and/or where you are in the process of editing the UTC offset.
+1. Reads a block of GPS data (possibly over several passes through the loop). This consists of a series of $GP* text messages.
+1. Once all the GPS data has been collected (above) into a buffer it is parsed in preperation for processing and display.
+1. TIME data is error checked adjusted for offset to UTC, formatted and displayed in a way appropriate to the screen we are in.
+1. DATE data is error checked adjusted for offset to UTC, formatted and displayed in a way appropriate to the screen we are in.
+1. LATITUDE data is error checked formatted and displayed in a way appropriate to the screen we are in. Due to the slow LCD redraw speed this is performed only every 5th pass through the main loop.
+1. LONGTITUDE data is error checked formatted and displayed in a way appropriate to the screen we are in. Due to the slow LCD redraw speed this is performed only every 5th pass through the main loop (but not the same one as LATITUDE !).
+1. SPEED data is error checked formatted and displayed in a way appropriate to the screen we are in.
+1. ALTITUDE data is error checked formatted and displayed in a way appropriate to the screen we are in. Due to the slow LCD redraw speed this is performed only every 5th pass through the main loop (but not the same one as LATITUDE or LONGTITUE !).
+
+
+
+
 ## List of parts
 
 ### Core Components
