@@ -64,20 +64,18 @@ There are just 5 modules in this build. Below we describe them and their interco
 ## SOFTWARE
 
 Software for the MEGA 2560 microprocessor is compiled using the Arduino IDE and loaded using the USB-A to USB-B cable from the Windows 10 PC.
-The main file is [MyST7920.ino](Code/MyST7920/MyST7920.ino) ,  there are also three custom files in the same directory.
+The main file is [MyST7920.ino](Code/MyST7920/MyST7920.ino) ,  there are also three custom files in the same directory:
 
-A minimal bit-bashed SPI driver for ST7920 based LCDs in [ST7920.h](Code/MyST7920/ST7920.h) and [ST7920.cpp](Code/MyST7920/ST7920.cpp)
-
-Bitmaps for fonts and a buffer used by the LCD in [bitmaps.h](Code/MyST7920/bitmaps.h)
+A minimal bit-bashed SPI driver for ST7920 based LCDs in [ST7920.h](Code/MyST7920/ST7920.h) and [ST7920.cpp](Code/MyST7920/ST7920.cpp). Bitmaps for fonts and a buffer used by the LCD in [bitmaps.h](Code/MyST7920/bitmaps.h)
 
 The setup code :
 
 1. Sets up interrupt servicing routines for the two interface buttons
-2. Set up serial connections for debugging in the IDE at 56600 bps and connection to the GPS module at 9600 bps.
-3. Display a cool startup scrteen for 10 seconds.
-4. Setup to display screen 1.
+2. Sets up serial connections for debugging in the IDE at 56600 bps and connecting to the GPS module at 9600 bps.
+3. Displays a cool startup scrteen for 10 seconds.
+4. Setups up and displays screen 1.
 
-The software the runs in a loop (like all Arduino code) which:
+The software then runs in a loop (like all Arduino code) and:
 
 1. Responds to button presses which are originally picked up via interrupts. This is quite involved since button behaviour depends on which screen you are displaying and/or where you are in the process of editing the UTC offset.
 1. Reads a block of GPS data (possibly over several passes through the loop). This consists of a series of $GP* text messages.
