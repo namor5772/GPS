@@ -85,7 +85,7 @@ The software then runs in a loop (like all Arduino code) and:
 1. LATITUDE data is error checked formatted and displayed in a way appropriate to the screen we are in. Due to the slow LCD redraw speed this is performed only every 5th pass through the main loop.
 1. LONGTITUDE data is error checked formatted and displayed in a way appropriate to the screen we are in. Due to the slow LCD redraw speed this is performed only every 5th pass through the main loop (but not the same one as LATITUDE !).
 1. SPEED data is error checked formatted and displayed in a way appropriate to the screen we are in.
-1. ALTITUDE data is error checked formatted and displayed in a way appropriate to the screen we are in. Due to the slow LCD redraw speed this is performed only every 5th pass through the main loop (but not the same one as LATITUDE or LONGTITUE !).
+1. ALTITUDE data is error checked formatted and displayed in a way appropriate to the screen we are in. Due to the slow LCD redraw speed this is performed only every 5th pass through the main loop (but not the same one as LATITUDE or LONGTITUDE !).
 
 ## List of parts
 
