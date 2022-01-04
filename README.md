@@ -68,7 +68,7 @@ The main file is [MyST7920.ino](Code/MyST7920/MyST7920.ino). There are also thre
 
 A minimal bit-bashed SPI driver for ST7920 based LCDs in [ST7920.h](Code/MyST7920/ST7920.h) and [ST7920.cpp](Code/MyST7920/ST7920.cpp). Bitmaps for fonts and a buffer used by the LCD in [bitmaps.h](Code/MyST7920/bitmaps.h)
 
-The setup code :
+The setup code:
 
 1. Sets up interrupt servicing routines for the two interface buttons
 2. Sets up serial connections for debugging in the IDE at 56600 bps and connecting to the GPS module at 9600 bps.
