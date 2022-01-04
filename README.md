@@ -66,13 +66,13 @@ There are just 5 modules in this build. Below we describe them and their interco
 Software for the MEGA 2560 microprocessor is compiled using the Arduino IDE and loaded using the USB-A to USB-B cable from the Windows 10 PC.
 The main file is [MyST7920.ino](Code/MyST7920/MyST7920.ino). There are also three custom files in the same directory:
 
-A minimal bit-bashed SPI driver for ST7920 based LCDs in [ST7920.h](Code/MyST7920/ST7920.h) and [ST7920.cpp](Code/MyST7920/ST7920.cpp). Bitmaps for fonts and a buffer used by the LCD in [bitmaps.h](Code/MyST7920/bitmaps.h)
+A minimal bit-bashed SPI driver for ST7920 based LCDs in [ST7920.h](Code/MyST7920/ST7920.h) and [ST7920.cpp](Code/MyST7920/ST7920.cpp). Bitmaps for fonts and a buffer used by the LCD in [bitmaps.h](Code/MyST7920/bitmaps.h). These are structured just like a library except that they reside in the same directory as the *.ino file.
 
 The setup code:
 
-1. Sets up interrupt servicing routines for the two interface buttons
+1. Sets up interrupt servicing routines for the two interface buttons.
 2. Sets up serial connections for debugging in the IDE at 56600 bps and connecting to the GPS module at 9600 bps.
-3. Displays a cool startup scrteen for 10 seconds.
+3. Displays a cool startup screen for 10 seconds.
 4. Setups up and displays screen 1.
 
 The software then runs in a loop (like all Arduino code) and:
@@ -86,9 +86,6 @@ The software then runs in a loop (like all Arduino code) and:
 1. LONGTITUDE data is error checked formatted and displayed in a way appropriate to the screen we are in. Due to the slow LCD redraw speed this is performed only every 5th pass through the main loop (but not the same one as LATITUDE !).
 1. SPEED data is error checked formatted and displayed in a way appropriate to the screen we are in.
 1. ALTITUDE data is error checked formatted and displayed in a way appropriate to the screen we are in. Due to the slow LCD redraw speed this is performed only every 5th pass through the main loop (but not the same one as LATITUDE or LONGTITUE !).
-
-
-
 
 ## List of parts
 
