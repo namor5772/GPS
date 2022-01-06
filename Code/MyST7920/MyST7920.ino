@@ -1,5 +1,5 @@
 // IN GITHUB
-// C:\Users\roman\Documents\GitHub\GPS\Code\MyST7920
+// C:\Users\roman\GitHub\GPS\Code\MyST7920
 //
 
 #include "ST7920.h" // minimal bit-bashed SPI drivers for ST7920 based LCD

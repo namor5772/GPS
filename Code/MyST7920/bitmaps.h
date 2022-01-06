@@ -1,5 +1,5 @@
 // IN GITHUB
-// C:\Users\roman\Documents\GitHub\GPS\Code\MyST7920
+// C:\Users\roman\GitHub\GPS\Code\MyST7920
 
 // Various bitmaps used by the LCD
 
