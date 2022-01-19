@@ -1,4 +1,4 @@
-# GPS unit
+# GPS Unit
 
 This github repository details the construction of a GPS unit with custom clock and speed screens.....
 ![alt text](Images/GPSunit.jpg "GPS unit")
@@ -86,7 +86,7 @@ The software then runs in a loop (like all Arduino code) and:
 1. SPEED data is error checked formatted and displayed in a way appropriate to the screen we are in.
 1. ALTITUDE data is error checked formatted and displayed in a way appropriate to the screen we are in. Due to the slow LCD redraw speed this is performed only every 5th pass through the main loop (but not the same one as LATITUDE or LONGTITUDE !).
 
-## List of parts
+## LIST OF PARTS
 
 ### Core Components
 
