@@ -106,4 +106,6 @@ The software then runs in a loop (like all Arduino code) and:
 
 | Qty | Product | Description | AUD Cost | Comment | Designator |
 | --- | --- | --- | --- | --- | --- |
-|1| [XC3712](https://jaycar.com.au/p/XC3712) | GPS Receiver Module| $49.95 | A GPS receiver using the NEO6MV2 module, outputting NMEA data at 9600 baud. | connected 
+|1| [HB6011](https://jaycar.com.au/p/HB6011) | Jiffy Box - Black - 158 x 95 x 53mm | $5.25 | enclosure of this GPS unit | |
+|1 | [HP9544](https://jaycar.com.au/p/HP9544) | PC Boards Vero Type Strip - 95mm x 305mm| $12.95 | cut up as required | |
+|1 | [WW4030](https://jaycar.com.au/p/WW4030) | Tinned Copper Wire - 100 gram Roll | $19.95 | for wiring up above Vero board | |
