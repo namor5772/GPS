@@ -109,6 +109,16 @@ The software then runs in a loop (like all Arduino code) and:
 |1| [HB6011](https://jaycar.com.au/p/HB6011) | Jiffy Box - Black - 158 x 95 x 53mm | $5.25 | enclosure of this GPS unit | |
 |1| [HP9544](https://jaycar.com.au/p/HP9544) | PC Boards Vero Type Strip - 95mm x 305mm| $12.95 | cut up as required | |
 |1| [WW4030](https://jaycar.com.au/p/WW4030) | Tinned Copper Wire - 100 gram Roll | $19.95 | for wiring up above Vero board | |
-|1| [HM3412](https://jaycar.com.au/p/HM3412) | 2 Pin 0.1 Straight Locking Header - 2.54 pitch - Single | $0.30 | On LCD Vero board for main board connection | J5, J6, J8 |
-|1| [HM3413](https://jaycar.com.au/p/HM3413) | 3 Pin 0.1 Straight Locking Header - 2.54 pitch - Single | $0.40 | On LCD Vero board for Arduino connection |
-|1| [HM3422](https://jaycar.com.au/p/HM3422) | 2 Pin 0.1 90-degree Locking Header - 2.54 pitch - Single | $0.30 | On LCD Vero board for Arduino connection |
+|1| [HM3412](https://jaycar.com.au/p/HM3412) | 2 Pin 0.1 Straight Locking Header - 2.54 pitch - Single | $0.30 | On LCD Vero board for main board connection | J3 |
+|1| [HM3413](https://jaycar.com.au/p/HM3413) | 3 Pin 0.1 Straight Locking Header - 2.54 pitch - Single | $0.40 | On LCD Vero board for Arduino connection | J5 |
+|1| [HM3422](https://jaycar.com.au/p/HM3422) | 2 Pin 0.1 90-degree Locking Header - 2.54 pitch - Single | $0.30 | On main board for Arduino connection | J4 |
+|1 | [HM3250](https://jaycar.com.au/p/HM3250) | 40 Pin Dual In-Line (DIL) / Jumpers (only 3x2 pins) | $1.50 | for power from main board | J1, J2, J3 |
+|1| [HP0924](https://jaycar.com.au/p/HP0924) | M3 x 12mm Tapped Nylon Spacers - Pk.25 (need 18)| $9.95 | For mounting Vero boards, Arduino Mega, LCD and GPS module, shorten as required| |
+|1 | [HP0440](https://jaycar.com.au/p/HP0440) | M3 x 5mm Black Equipment Screws - Pk.25 (need 18)| $2.30 | as above |
+|1 | [WC6026](https://jaycar.com.au/p/WC6026) | 150mm Socket to Socket Jumper Leads - 40 Piece (only need 4) | $5.95 | for connecting Vero board power to LCD and GPS modules |
+|1 | [WC6028](https://jaycar.com.au/p/WC6028) | 150mm Plug to Socket Jumper Leads - 40 Piece (need 8) | $5.95 | for various plug connections to Arduino MEGA |
+|1 | [WH3001](https://jaycar.com.au/p/WH3001) | Black Light Duty Hook-up Wire - 25m (only 10cm needed ) | $5.95 | for connecting mini to main Vero boards | J6, J5-1 |
+|1 | [WH3004](https://jaycar.com.au/p/WH3004) | Yellow Light Duty Hook-up Wire - 25m (only 10cm needed )| $5.95 | for connecting mini to main Vero boards | J7, J5-2 |
+|1 | [WH3007](https://jaycar.com.au/p/WH3007) | White Light Duty Hook-up Wire - 25m (only 10cm needed ) | $5.95 | for connecting mini to main Vero boards | J8, J5-3 |
+|1 | [WC7707](https://jaycar.com.au/p/WC7707) | 0.5m USB 2.0 A Male to A Male Cable | $5.95 | for connecting external 5.1V to GPS unit via main board | U3 |
+|1 | [MP3455](https://jaycar.com.au/p/MP3455) | USB Power Adaptor - 1A | $14.95 | for powering GPS unit via above cable | |
